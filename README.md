@@ -2,7 +2,7 @@
 # Loan Management System (LMS) – Backend
 
 This repository contains a **Java-based backend Loan Management System (LMS)**.
-For braod level schema and api design, Refer : https://drive.google.com/file/d/18zc--qJWiU5CLr5j_AdukC8i8sowamc7/view?usp=sharing
+For broad level schema and api design, Refer : https://drive.google.com/file/d/18zc--qJWiU5CLr5j_AdukC8i8sowamc7/view?usp=sharing
 
 The system supports:
 
@@ -31,20 +31,6 @@ The backend uses:
 - Fetch loan details
 - Fetch loan schedule with DPD
 - Persist all data in PostgreSQL
-
----
-
-## 📁 Project Structure
-
-lms-backend-full/
-├── server/ → HTTP server bootstrap (LmsHttpServer.java)
-├── controller/ → API handlers (LoanHandler, PaymentHandler, etc.)
-├── service/ → Business logic (LoanService, ScheduleService, etc.)
-├── repository/ → DB access (LoanRepository, CustomerRepository, etc.)
-├── model/ → Domain models (Loan, Installment, Payment, DTOs)
-├── util/ → Utilities (DBConnection, EMI calculator, etc.)
-├── lib/ → PostgreSQL JDBC driver
-└── README.md
 
 ---
 
